@@ -1,5 +1,5 @@
 # Geofront
-
+[![Build Status](http://dandymix.space:8080/buildStatus/icon?job=Personal%2FGeofront)](http://dandymix.space:8080/job/Personal/job/Geofront/)
 ## Geometric shooter written in C from scratch
 
 ![Gameplay Demo](/geodemo.gif)
