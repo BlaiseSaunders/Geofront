@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Building..'
 
-		
+
                 sh("make")
             }
         }
@@ -14,7 +14,8 @@ pipeline {
             steps {
                 echo 'Testing..'
 
-		sh("who")
+		sh("make -f Maketest")
+		sh("./geo_test")
             }
         }
         stage('Deploy') {
