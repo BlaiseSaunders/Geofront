@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
+
 		
                 sh("make")
             }
@@ -12,7 +13,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-		
+
 		sh("who")
             }
         }
